@@ -44,6 +44,17 @@ apksec -apk "path to apk" -vt "virustotal_api_key"
 
 <img src="apksec.gif"/>
 
+## Features
+
+- [x] Extract general package information from apk
+- [x] Find android permissions used by apk
+- [x] Find apk certificate, signature, hashes 
+- [x] Find informations from meta-data
+- [x] Find exported activities without permission
+- [x] Find exported content provider without permission
+- [x] Find exported broadcast receiver without permission
+- [x] Find exported services without permission
+- [x] Use VirusTotal to obtain summary of apk and detect malicious apk
 
 ## Todo
 - [ ] Extract informations from deep links 
